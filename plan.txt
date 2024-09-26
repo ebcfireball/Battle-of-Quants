@@ -1,0 +1,12 @@
+Possible system design:
+
+1: 
+    -get data
+    -split up according to PERMNO(company)
+    -put different dfs into seperate parquet files
+    -run machine learning model on each files data
+2: 
+    -get data
+    -split up according to PERMNO(company)
+    -loop through PERMNOS and run learning model each time
+    
