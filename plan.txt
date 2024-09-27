@@ -9,4 +9,5 @@ Possible system design:
     -get data
     -split up according to PERMNO(company)
     -loop through PERMNOS and run learning model each time
+   gg
     
