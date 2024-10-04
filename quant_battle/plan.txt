@@ -17,3 +17,6 @@ Possible system design:
 -check if stock is in the dict, if not add it, if yes then add data
 -while adding data check to see if it is buy, sell, or hold
 -after adding all data check each signal list and act on it
+
+-for thing in sell, check if already in positions. If yes sell all and then an extra. If no sell 1
+-for thing in buy, check if positions is positive. If yes buy 1. If negative buy 1- positions
