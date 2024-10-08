@@ -20,3 +20,6 @@ Possible system design:
 
 -for thing in sell, check if already in positions. If yes sell all and then an extra. If no sell 1
 -for thing in buy, check if positions is positive. If yes buy 1. If negative buy 1- positions
+
+
+-calculate the highest absolute price change with good company health and bet that it will do the opposite the next month
